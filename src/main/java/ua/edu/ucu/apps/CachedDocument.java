@@ -8,6 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+
 @AllArgsConstructor
 public class CachedDocument implements Document {
     private final String gcsPath;
